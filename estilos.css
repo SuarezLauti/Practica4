@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+    color: black;
+    text-shadow: 1.4px 1.4px 1.4px white;
+    text-overflow: ellipsis;
+    float: center;
+}
+h4{
+    text-align: center;
+    color: blanchedalmond;
+}
+#Adquirir{
+    background-color: black;
+    float: right;
+    color: white;
+    width: 150px;
+    height: 30px;
+}
+body{
+    background-image: url(./Imagenes/fondo2.jpg);
+    background-attachment: fixed;
+    background-size: 1800px 1700px;
+}
+#img1{
+    float: left;
+    padding: auto;
+}
+#img2{
+    float: right;
+    padding: auto;
+}
+#img3{
+    float: left;
+    padding: auto;
+}

@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+    color: black;
+    text-shadow: 1.4px 1.4px 1.4px white;
+    text-overflow: ellipsis;
+    float: center;
+}
+#regresar{
+    background-color: black;
+    float: left;
+    color: white;
+    width: 150px;
+    height: 30px;
+}
+body{
+  background-image: url(./Imagenes/Fondo.jpg);
+  background-attachment: fixed;
+  background-size: 1250px 1000px;
+}
+input[type=checkbox]{
+    display: inline-block;
+    padding: auto;
+}
+form{
+    text-align: center;
+}
+p{
+    color: rgb(202, 24, 24);
+    text-align: center;
+
+}
+button{
+    background-color: black;
+    color: white;
+}

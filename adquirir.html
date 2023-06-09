@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./funciones.js"></script>
+    <link rel="stylesheet" href="estilosadquirir.css" />
+    <title>COMPARAR</title>
+</head>
+<body>
+    <h1><a href="./index.html"><button type="button" id="regresar">REGRESAR</button></a>Complete el Formulario</h1><br />
+    <p>Montos a pagar con descuento por tener lineas con nuestra empresa:</p>
+    <form>
+      <span> Ingresa el valor de tu primera boleta:</span>
+      <input type="text" id="n1" name="n1" placeholder="numero1" required /> *<br /><br />
+      <span> Ingresa el valor de tu segunda boleta:</span>
+      <input type="text" id="n2" name="n2" placeholder="numero2" required /> *<br /><br />
+      <select id="operaciones">
+        <option value="prom1">2 lineas</option>
+        <option value="prom2">3 lineas</option>
+        <option value="prom3">4 lineas</option>
+        <option value="prom4">+4 lineas</option>
+      </select>
+      <button type="button" onclick="calcular()">CALCULAR</button>
+      <button type="button" onclick="borrar()">BORRAR</button>
+      <div id="resultado"></div><br />
+    </form>
+    <p> Comparacion de ofertas:</p>
+    <form>
+      <span> Nombre de la primera EMPRESA:</span>
+      <input
+        type="text"
+        id="nombre1"
+        name="nombre1"
+        placeholder="nombre1"
+      /><br /><br />
+      <span> Megas que le ofrece:</span>
+      <input
+        type="text"
+        id="megas1"
+        name="megas1"
+        placeholder="megas1"
+      /><br /><br />
+      <span> Nombre de la segunda EMPRESA:</span>
+      <input
+        type="text"
+        id="nombre2"
+        name="nombre2"
+        placeholder="nombre2"
+      /><br /><br />
+      <span> Megas que le ofrece:</span>
+      <input
+        type="text"
+        id="megas2"
+        name="megas2"
+        placeholder="megas2"
+      /><br /><br />
+      <div id="mensaje"></div><br/>
+      <button type="button" onclick="mayor()">COMPARAR</button>
+      <button type="button" onclick="borrar1()">BORRAR</button>
+      <p>Elegi dos servicios que quieras recibir</p>
+    <form>
+      <span> FIBRA OPTICA</span>
+      <input
+        type="checkbox"
+        id="FIBRA"
+      /><br /><br />
+      <span> TELEFONO FIJO</span>
+      <input
+      type="checkbox"
+      id="TELEFONO"
+      /><br /><br />
+      <span> CELULAR</span>
+      <input
+      type="checkbox"
+      id="CELULAR"
+      /><br /><br />
+      <button type="button" onclick="verificar()">ELEGIR</button>
+    </form>
+    <br /><br />
+    
+</body>
+</html>
